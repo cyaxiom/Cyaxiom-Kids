@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+/* Theme variables */
+@theme {
+  --costomeBlue: #003f88;
+  --textColor: #b6b6b9;
+  --fontColor: #ffd879;
+  --fontColrTwo: #ffffff;
+  --deepFont: #eaeaeb;
+  --deepColor: #181819;
+  --priceColor: #c5f96f;
+  --inputColor: #0a0d17;
+  --authBg: #1b2030;
+
+  --primaryColor: #144df8;
+  --secondaryColor: #06b6d4;
+  --headerColor: white;
+
+  --subHeader: #d1d5db;
+  --subHeaderTwo: #6f7685;
+  --subHeaderThree: #969ba5;
+  --darkGray: #171717;
+  --bgColor1: #00011b;
+  --bgColor2: #0a0d17;
+  --bgColor3: #8f99b1;
+
+  /* shadow colors */
+  --shadowColor1: #13132d;
+}
+
+/* Base styles */
+@layer base {
+  body {
+  }
+}
+
+/* Components */
+@layer components {
+  .btn-primary {
+  }
+}
+
+/* Utilities */
+@layer utilities {
+  /* Custom Glass Effect */
+  .bg-glass-effect {
+  }
+
+  .bg-glass-dark {
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Custom Animation */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg); /* Counterclockwise */
+  }
+}
+
+.animate-rotate {
+  animation: rotate 10s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 5s linear infinite;
+}
+
+/* Custom Scaling */
+.scale-175 {
+  transform: scale(1.75);
+}
+
+.scale-200 {
+  transform: scale(2);
+}
+
+.scale-250 {
+  transform: scale(2.5);
+}
+
+.scale-300 {
+  transform: scale(3);
+}
+
+.scale-350 {
+  transform: scale(3.5);
+}
