@@ -1,7 +1,7 @@
 function App() {
   return (
     <>
-      <h1 className="bg-red-500">Vite + React</h1>
+      <h1 className="bg-[var(--costumeBlue)]">Vite + React</h1>
     </>
   );
 }
