@@ -9,10 +9,10 @@ import {
 function Home() {
   return (
     <div className="bg-red-500 text-3xl">
-      <Hero />
-      <Discover />
+      {/* <Hero /> */}
+      {/* <Discover />
       <Register />
-      <NewsLetter />
+      <NewsLetter /> */}
     </div>
   );
 }
