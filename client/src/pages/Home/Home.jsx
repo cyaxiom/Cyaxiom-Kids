@@ -4,15 +4,17 @@ import {
   Discover,
   Register,
   NewsLetter,
+  Subscribe,
 } from "../../components/z-index.component";
 
 function Home() {
   return (
-    <div className="bg-red-500 text-3xl">
-      {/* <Hero /> */}
-      {/* <Discover />
+    <div className="">
+      <Hero />
+      <Discover />
       <Register />
-      <NewsLetter /> */}
+      <NewsLetter />
+      <Subscribe/>
     </div>
   );
 }
